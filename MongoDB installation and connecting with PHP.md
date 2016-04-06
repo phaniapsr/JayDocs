@@ -20,7 +20,6 @@ Now edit php.ini file in the path xampp/php/php.ini and put the line
 
 ```
 extension=php_mongo.dll
-
 ```
 in the extensions section and restart the apache. After restarting you should see mongo exension in your phpinfo().
 
@@ -31,7 +30,7 @@ Now open two command line windows and go to the bin directory in both windows wh
 Now create a folder for storing the data of MongoDB any where out side the windows installation directory. In my case i have created at "E:\mondodb\data".
 
 #### Step 7: 
-Run the follwoing command - This is for running the MongoDB server.
+Run the follwoing command (in the command i have used the path 'E:\mondodb\data' since i have created my data directory in that path) - This is for running the MongoDB server.
 ```
 mongod.exe --dbpath E:\mondodb\data
 ```
